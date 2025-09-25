@@ -39,7 +39,7 @@ System.out.printin("Sum of grades is" + grades);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-int average = (g1+g2+g2)/3.0;
+double average = (g1+g2+g2)/3.0;
 System.out.printin("The average is" + average);
 
 
@@ -49,7 +49,11 @@ System.out.printin("The average is" + average);
     Declare and assign values to any new variables
 
 */
-  double 
+double A = 2.1;
+double x = 0.9;
+double y = 0;
+y = A / (x+1);
+System.out.println("y is" +y);
 
 /*  
     Challenge 5:
@@ -59,7 +63,8 @@ System.out.printin("The average is" + average);
 
 */
  
-
+y = (2*x*(x+1)*(-x/2) ) / A;
+System.out.println("y is" +y);
 
 
 
@@ -72,6 +77,10 @@ System.out.printin("The average is" + average);
     Declare and assign values to any new variables
 */
  
+double area = 0;
+double b = 4.5;
+double h = 5.4;
+area = 1/2.0;
 
 
 
