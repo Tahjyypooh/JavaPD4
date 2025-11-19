@@ -13,9 +13,8 @@ class Main {
     double[] tempF = convert(tempC);
     for(int i=0; i<tempF.length;i++){
         print(tempF[i]);
-    
-}
-  
+    }
+  }  
    double[] convert(double[] c){
       double[] f = new double[c.length];
       for(int i=0; i<f.length;i++){
@@ -23,9 +22,9 @@ class Main {
       }
       return f;
    }
-  }
+  
 
-}
+
 
   
 
